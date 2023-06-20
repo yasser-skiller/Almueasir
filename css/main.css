@@ -7,6 +7,11 @@
     --Gray:rgb(213, 213, 213);
     --Red :#c1453d;
 }
+* {
+    -webkit-print-color-adjust: exact !important;   /* Chrome, Safari 6 – 15.3, Edge */
+    color-adjust: exact !important;                 /* Firefox 48 – 96 */
+    print-color-adjust: exact !important;           /* Firefox 97+, Safari 15.4+ */
+}
 body{
     font-family:'Noor',Arial, Helvetica, sans-serif;
 }
