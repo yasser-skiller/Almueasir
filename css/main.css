@@ -149,30 +149,13 @@ header{
 }
 
 
-.cover {
-    width: 21cm;
-    height: 29.7cm;
-    font-family: "Noor";
-    display: flex;
-    
-  }
-  
-  
-  /* .page {
-    width: 21cm;
-    height: 29.7cm;
-    margin: 0.5cm auto;
-    font-family: "Noor";
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  } */
+
    
   @page {
     size: A4;
+
   }
+  
     
   @media print {
     * {
@@ -190,16 +173,6 @@ header{
       min-height: initial;
       box-shadow: initial;
       background: initial;
-      page-break-after: always;
+      page-break-after: avoid;
     }
-    .cover{
-      margin: 0;
-      border: initial;
-      border-radius: initial;
-      width: initial;
-      min-height: initial;
-      box-shadow: initial;
-      background: initial;
-      page-break-after: always;
-  }
 }
