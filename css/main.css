@@ -1,0 +1,129 @@
+:root{
+    --Gray:rgb(213, 213, 213);
+    --Red :#c1453d;
+}
+
+header{
+    display: flex;
+}
+.headTitle{
+    position: relative;
+    background-color: var(--Red);
+    height: 40px;
+    width: 50%;
+    border-radius: 5px 10px  5px 10px;
+}
+.NumBlock{
+    position: absolute;
+    top: 10px;
+    height: 45px;
+    width: 40px;
+    right: 20%;
+    border: 1px solid  var(--Red);
+    background-color: #fff;
+    border-radius: 5px 2px 5px 2px;
+}
+.NumBlock p{
+    font-size: 30px;
+}
+.headTitleTwo{
+    width: 50%;
+    height: 40px;
+    color:  var(--Red);
+    text-align: left;
+}
+.headTitleTwo .line{
+    height: 3px;
+    background-color:  var(--Red);
+}
+
+.Index{
+    border: 1px solid  var(--Red);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+
+
+.dotted{
+    border: 1px dotted gray;
+}
+.dotted-top{
+    border-top: 1px dotted gray;
+}
+.border_bottom{
+    border-bottom: 1px var(--Gray);
+    width: 50%;
+    margin: auto;
+}
+.fit-content{
+    height: fit-content;
+}
+.border_left{
+    border-left: 1px solid var(--Gray);
+}
+
+.border_gradient{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    background-image: linear-gradient(to top, green, red );
+    width: 7px;
+    height: 90vh;
+}
+
+.block{
+    position: relative;
+    padding: 20px;
+    border: 1px solid var(--Gray);
+    border-radius: 30px;
+}
+.pr-2{
+    padding-right: 10px;
+}
+.blackPoint{
+    background-color: #000;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 0 10px;
+}
+.blackPoint span{
+    background-color: #fff;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+.title{
+    position: absolute;
+    top: -15px;
+    right: -5px;
+    display: flex;
+}
+.title .partOne{
+    color: #fff;
+    background-color:  var(--Red);
+    padding: 4px 20px;
+    border-radius: 15px  15px 0 15px ;
+}
+.title .partTwo{
+    font-weight: bold;
+    background-color: rgb(219, 219, 219);
+    padding: 4px 20px;
+    border-radius: 20px 10px 10px 20px;
+
+}
+
+@media (max-width:989px) {
+    .border_left{
+        border-left: none;
+    }
+}
