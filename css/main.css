@@ -158,7 +158,7 @@ header{
   }
   
   
-  .page {
+  /* .page {
     width: 21cm;
     height: 29.7cm;
     margin: 0.5cm auto;
@@ -168,7 +168,7 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
+  } */
    
   @page {
     size: A4;
@@ -181,6 +181,8 @@ header{
         print-color-adjust: exact !important;           /* Firefox 97+, Safari 15.4+ */
     }
     .page {
+       width: 21cm;
+      height: 29.7cm;
       margin: 0;
       border: initial;
       border-radius: initial;
